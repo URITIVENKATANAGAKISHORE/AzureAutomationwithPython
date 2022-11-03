@@ -3,10 +3,10 @@ import requests
 
 from azure.identity import ClientSecretCredential
 
-client_id = "a19cdd4e-e230-49e3-9244-e66ddc0ff0cd"
-client_secret = "xLW8Q~XcR9kQbKCDsRkAU9zoaGniSTJcKWPqjcu2"
-tenant_id = "25601436-dd8f-46c2-8c62-8db59303315f"
-object_id = "313824b9-6ea5-4967-92c6-bff2cd42f818"
+client_id = "a19cdd4e-e"
+client_secret = "xLW8Q~"
+tenant_id = "25601436-"
+object_id = "313824b9-"
 #principal_id = ""
 
 resource = 'https://management.core.windows.net/'
