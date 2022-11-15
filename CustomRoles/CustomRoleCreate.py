@@ -7,9 +7,11 @@ from datetime import date
 import json
 import uuid
 
+
+
 def custom_role(action, subscriptionId, role, parameter):
+
 	client_id = ""
-	# client_secret = ""
 	client_secret = ""
 	tenant_id = ""
 	object_id = ""
