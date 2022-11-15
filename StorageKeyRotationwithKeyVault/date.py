@@ -1,18 +1,22 @@
-from datetime import datetime, timedelta
- 
+import calendar
+from datetime import date, datetime, timedelta
+
 # date object of today's date
 today = datetime.now()
 activationdate = datetime.now()
-expirydate = datetime.now() + timedelta(days=90)
+expirydate = datetime.now() + timedelta(days=30)
+notificationdate = expirydate - timedelta(days=20)
 
 
 print("Current Date : " , today)
-print("Activation Date : ", activationdate)
+print("notificationdate Date : ", notificationdate)
 print("Expiry Date : ", expirydate)
 
-if ( (expirydate-today) == 30):
-	print("Num of Days : ", (expirydate-today))
-elif ( (expirydate-today) == 15) :
-	print("Num of Days : ", (expirydate-today))
-else :
-	print("Num of Days : ", (expirydate-today))
+
+from datetime import datetime
+
+
+timestamp = 1668205800
+dt_obj = datetime.fromtimestamp(timestamp).strftime('%d-%m-%y')
+
+print("date:",dt_obj)
